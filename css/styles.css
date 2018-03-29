@@ -1,0 +1,60 @@
+
+header {
+  text-align: center;
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+  font-family: Blackout Sunrise;
+}
+
+body {
+  background-image: url("../images.img/FH000002.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+  min-height: inherit;
+}
+
+@font-face {
+  font-family: BlackoutSunrise;
+  src: url('../fonts/BlackoutSunrise.ttf');
+}
+.Blackout Sunrise { font-family: BlackoutSunrise; }
+
+.style {
+  background-image: url(/images.img/FH000002.jpg);
+}
+
+.navbar  {
+  background-color: rgba(255,255,255,.5)
+}
+
+h3 {
+  color:black;
+  font-family: BlackoutSunrise;
+}
+
+p {
+  color:black;
+}
+
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.1);
+}
+
+li {
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+.btn-facebook {
+  background-color: pink;
+  font-weight: bold;
+  border-color: grey;
+}
+
+.btn-instagram {
+  background-color: pink;
+  font-weight: bold;
+  border-color: grey;
+}
