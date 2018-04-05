@@ -27,13 +27,16 @@ body.splashpage {
   background-attachment: fixed;
   min-height: inherit;
   background-position: center;
+  background-image: no-repeat;
 }
 
 @font-face {
   font-family: BlackoutSunrise;
   src: url('../fonts/BlackoutSunrise.ttf');
 }
-.Blackout Sunrise { font-family: BlackoutSunrise; }
+.BlackoutSunrise {
+  font-family: BlackoutSunrise;
+}
 
 .style {
   background-image: url(/images.img/FH000002.jpg);
@@ -68,14 +71,11 @@ ul.dropdown-menu {
     height: 60px;
     transition: background-color .5s ease 0s;
 }
-
 }
-
 
 .title {
   font-family: BlackoutSunrise;
   font-size: 80px;
-  text-align: center;
 
 }
 
@@ -92,6 +92,8 @@ ul.dropdown-menu {
 }
 
 
+h1 {
+  font-family: BlackoutSunrise;
 }
 
 h3 {
@@ -127,5 +129,39 @@ li {
 
 .lifedrawing {
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: inherit;
+  float: right;
+  margin: 40px;
+}
 
+.link {
+  color; black;
+  text-decoration: none;
+  background-color: none;
+}
+
+.enter {
+  margin-left: 30px;
+  float:inherit;
+  width: inherit;
+}
+
+.scroll-left {
+  background-color: white;
+  width: 100%;
+  clear: both;
+  padding: 2%;
+  position: fixed;
+  bottom: 0px;
+}
+
+
+
+.next-class {
+  border: 0;
+  font-family: 'Source Sans Pro', sans serif;
+  font-size: 100%;
+  font-weight: inherit;
+  vertical-align: baseline;
 }
