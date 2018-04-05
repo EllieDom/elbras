@@ -24,8 +24,59 @@ body {
   background-image: url(/images.img/FH000002.jpg);
 }
 
-.navbar  {
-  background-color: rgba(255,255,255,.5)
+.opaque-navbar {
+    background-color: rgba(0,0,0,0);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: grey;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: grey;
+}
+
+
+@media (max-width: 992px) {
+  body
+  {
+    background:red;
+  }
+  .opaque-navbar {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+}
+
+
+.title {
+  font-family: BlackoutSunrise;
+  font-size: 80px;
+  text-align: center;
+
+}
+
+.shopbutton {
+  font-family: times;
+  font-size: 20px;
+  text-align: left;
+}
+
+.aboutbutton {
+  font-family: times;
+  font-size: 20px;
+  text-align: right;
+}
+
+
 }
 
 h3 {
